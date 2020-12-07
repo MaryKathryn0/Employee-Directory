@@ -40,11 +40,11 @@ class Table extends React.Component {
                     </div>
                     <input name="search" onChange={this.handleInputChange} type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm" />
                 </div>
-                <form className={classes.root} noValidate autoComplete="off">
+                {/* <form className={classes.root} noValidate autoComplete="off">
                     <TextField id="standard-basic" label="Standard" />
                     <TextField id="filled-basic" label="Filled" variant="filled" />
                     <TextField id="outlined-basic" label="Outlined" variant="outlined" />
-                </form>
+                </form> */}
                 <table class="table">
                     <thead class="thead-dark">
                         <tr>
